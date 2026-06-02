@@ -67,4 +67,52 @@ void main(String[] args) {
         System.out.println("The element found at index: " + result2);
     // End of Binary Search Algorithm -----------------------------------------------------
 
+
+
+    // Algorithm 3 =========================================================================================
+
+// Bubble Sort Algorithm ------------------------------------------------------------
+
+// Create an integer array with unsorted numbers
+    int[] numbers03 = {
+            9, 12, 1, 19, 11, 34, 41, 46, 52, 58,
+            63, 21, 79, 84, 44, 97, 15, 112, 235, 125,
+            13, 141, 111, 122, 19, 25,
+    };
+
+// Print a title before displaying the original array
+    System.out.println("Original Array:");
+
+// For-each loop: iterate through every element in the array
+    for (int number : numbers03)
+
+        // Print each number followed by a space
+        System.out.print(number + " ");
+
+// Move to the next line after printing the array
+    System.out.println();
+
+
+// Call the bubble sort method and store the sorted array
+    int sortedArray[] = BubbleSortExample.bubblesSort(numbers03);
+
+
+// Print a title before displaying the sorted array
+    System.out.println("Sorted Array:");
+
+
+// For-each loop: iterate through every element in the sorted array
+    for (int number : sortedArray)
+
+        // Print each sorted number followed by a space
+        System.out.print(number + " ");
+
+// Move to the next line after printing the sorted array
+    System.out.println();
+
+
+// End of Bubble Sort Algorithm -----------------------------------------------------
+
+
+
 }
